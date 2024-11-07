@@ -1,6 +1,3 @@
-//Lab 1 : QuickSort Algorithm 
-//Siddhesh Kamthe (RBT22IT123)
-
 import java.util.*;
 
 public class QuickSort{
@@ -8,7 +5,7 @@ public class QuickSort{
         System.out.println("QuickSort algorithm in Java");
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Array size : ");  //Input array size 
+        System.out.println("Enter Array size : "); ize 
         int n = sc.nextInt();
 
         int[] arr = new int[n];
@@ -39,7 +36,7 @@ public class QuickSort{
     public static void QuSort(int[] arr, int low, int high) {
         if( high > low) {
             int pivotInd = Partition(arr, low, high);
-            //Recursively calling Partition function
+            //Recursively calling QuSort function
             QuSort(arr,low,pivotInd-1);
             QuSort(arr,pivotInd+1, high);
         }
