@@ -1,6 +1,3 @@
-//Lab Assignment : 9
-//Siddhesh Kamthe (RBT2IT123)
-
 import java.util.*;
 public class NQueens {
     public static void main(String[] args) {
